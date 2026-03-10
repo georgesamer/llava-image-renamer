@@ -25,18 +25,15 @@ Everything runs locally on your machine—no cloud APIs, no costs, and total pri
   ```
 
 # Usage
-
-**Rename all images in a folder:**
+1. **Rename all images in a folder:**
   ```bash
   python app.py --folder "C:/Users/Name/Pictures"
   ```
-
-**Rename specific files:**
+2. **Rename specific files:**
   ```bash
   python app.py --files photo.jpg image.png
   ```
-
-**Preview changes (Dry Run):**
+3. **Preview changes (Dry Run):**
   ```bash
   python app.py --folder ./my_images --dry-run
   ```
